@@ -1,0 +1,195 @@
+
+.nature{
+    height: 920px;
+    width: 1900px;
+    margin-left: 10px;
+    position: relative;
+}
+.banny{
+    position: absolute;
+    bottom: 250px;
+    right: 200px;
+    width: 150px;
+    animation-name: banny-anim;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    
+   
+}
+
+@keyframes banny-anim{
+    0% {
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-100px);
+    }
+    50%{
+        transform: translateX(-150px);
+    }
+    75%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translate(-250px);
+    }
+}  
+.birds{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 200px;
+    animation-iteration-count: infinite;
+    animation-name: birds-anim;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    
+
+}
+
+@keyframes birds-anim{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(600px);
+        
+    }
+    50%{
+        transform: translateX(1200px)rotate(45deg);
+    }
+    75%{
+        transform: translateX(1500px) rotate(90deg);
+
+    }
+    100%{
+        transform: translateX(2500px);
+    }
+}
+
+.airplane{
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-name: airplane-anim;
+    animation-iteration-count: infinite;
+}
+
+@keyframes airplane-anim{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-600px);
+        
+    }
+    50%{
+        transform: translateX(-1200px)rotate(-45deg);
+    }
+    75%{
+        transform: translateX(-1500px) 
+
+    }
+    100%{
+        transform: translateX(-2500px);
+    }
+}
+
+.boat{
+    position: absolute;
+    top: 500px;
+    width: 150px;
+    right: 1200px;
+    transform: rotate(10deg);
+    animation-name: boat-anim;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes boat-anim{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-100px);
+    }
+    50%{
+        transform: translateX(-150px);
+    }
+    75%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(-250px);
+    }
+}
+
+.fisher{
+    width: 200px;
+    position: absolute;
+    top: 450px;
+    right: 1180px;
+    transform: rotate(10deg);
+    animation-name: fisher-anim;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes fisher-anim{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-100px);
+    }
+    50%{
+        transform: translateX(-150px);
+    }
+    75%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(-250px);
+    }
+}
+.fisherman{
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    right: 650px;
+    animation-name: fisherman-anim;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+
+
+}
+
+@keyframes fisherman-anim{
+    0%{
+        transform: translateY(0px)
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    75%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(-25px);
+    }
+}
+  
