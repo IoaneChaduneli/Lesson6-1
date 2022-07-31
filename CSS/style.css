@@ -7,7 +7,7 @@
 }
 .banny{
     position: absolute;
-    bottom: 250px;
+    bottom: 310px;
     right: 200px;
     width: 150px;
     animation-name: banny-anim;
@@ -25,16 +25,16 @@
         transform: translateX(0px);
     }
     25%{
-        transform: translateX(-100px);
+        transform: translateX(-30px);
     }
     50%{
-        transform: translateX(-150px);
+        transform: translateX(-60px);
     }
     75%{
-        transform: translateX(-200px);
+        transform: translateX(-90px);
     }
     100%{
-        transform: translate(-250px);
+        transform: translate(-120px);
     }
 }  
 .birds{
